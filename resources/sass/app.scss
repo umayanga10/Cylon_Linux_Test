@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// custom CSS
+.form-label {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.form-heading{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.btn{
+    padding: 0.375rem 1.5rem;
+}
+
+@include media-breakpoint-between(xs, md) {
+    .col-md-3.ms-md-auto.text-end,
+    .col-md-3.offset-md-3.text-end{
+        text-align : left !important;
+    }
+}
