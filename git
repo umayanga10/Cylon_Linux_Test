@@ -1,0 +1,16 @@
+git account password:
+Um@y@nG@CL_2022
+
+gitlab username - email
+       password - asd12345
+       
+       Bank Name : Peoples Bank
+Ac No :  117 2 001 2 0044 680
+Branch name : akkuressa
+
+
+INSERT INTO `permissions` (`permission_id`, `section_name`, `parent_section`, `navbar_name`, `nubar_url`, `primary_sequence`, `secondary_sequence`, `third_level_menu_status`, `menu_icon`, `deleted_at`, `created_at`, `updated_at`) VALUES (NULL, 'LIST', '195', 'LIST', NULL, NULL, '11', '0', NULL, NULL, NULL, NULL); 
+
+INSERT INTO `permissions` (`permission_id`, `section_name`, `parent_section`, `navbar_name`, `nubar_url`, `primary_sequence`, `secondary_sequence`, `third_level_menu_status`, `menu_icon`, `deleted_at`, `created_at`, `updated_at`) VALUES (NULL, 'DISTRIBUTOR REPORT', '228', 'DISTRIBUTOR', 'distributor/view', NULL, NULL, '0', NULL, NULL, NULL, NULL); 
+
+INSERT INTO `permissions` (`permission_id`, `section_name`, `parent_section`, `navbar_name`, `nubar_url`, `primary_sequence`, `secondary_sequence`, `third_level_menu_status`, `menu_icon`, `deleted_at`, `created_at`, `updated_at`) VALUES (NULL, 'SALE REF REPORT', '228', 'SALE REP', 'salesref/view', NULL, NULL, '0', NULL, NULL, NULL, NULL); 
